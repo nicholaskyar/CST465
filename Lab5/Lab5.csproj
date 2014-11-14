@@ -76,7 +76,7 @@
     <Content Include="Account\EditProfilePage.aspx" />
     <Content Include="Global.asax" />
     <Content Include="StyleSheet.css" />
-    <Content Include="ViewProfilePage.aspx" />
+    <Content Include="Account\ViewProfilePage.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -103,11 +103,11 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewProfilePage.aspx.cs">
+    <Compile Include="Account\ViewProfilePage.aspx.cs">
       <DependentUpon>ViewProfilePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ViewProfilePage.aspx.designer.cs">
+    <Compile Include="Account\ViewProfilePage.aspx.designer.cs">
       <DependentUpon>ViewProfilePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">

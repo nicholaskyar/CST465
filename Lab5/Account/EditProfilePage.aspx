@@ -4,6 +4,8 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <h1>Edit Profile Page</h1>
+
     <div id="uxEditDiv">
         <asp:Label ID="uxNameLabel" AssociatedControlID="uxName" runat="server">Name: </asp:Label>
         <asp:TextBox ID="uxName" ValidationGroup="ProfileValidator" runat="server" />

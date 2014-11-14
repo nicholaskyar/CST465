@@ -4,6 +4,9 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+    <h1>View Profile Page</h1>
+
     <span class="fieldTitle">Name: </span>
     <asp:Literal ID="uxNameLiteral" runat="server" />
 

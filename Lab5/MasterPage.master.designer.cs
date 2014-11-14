@@ -30,6 +30,33 @@ public partial class MasterPage {
     protected global::System.Web.UI.HtmlControls.HtmlForm form1;
     
     /// <summary>
+    /// uxSiteMapDS control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.SiteMapDataSource uxSiteMapDS;
+    
+    /// <summary>
+    /// uxSiteMenu control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Menu uxSiteMenu;
+    
+    /// <summary>
+    /// uxSiteMapPath control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.SiteMapPath uxSiteMapPath;
+    
+    /// <summary>
     /// ContentPlaceHolder1 control.
     /// </summary>
     /// <remarks>

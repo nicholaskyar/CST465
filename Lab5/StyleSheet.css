@@ -1,0 +1,19 @@
+﻿body {
+}
+
+span.fieldTitle {
+    font-family: Arial;
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+/*for if I wanted to horizontally align the summary and edit divs*/
+/*#uxEditDiv {
+    width: 50%;
+    vertical-align: top;
+}
+
+#uxValidationErrorDiv {
+    width: 50%;
+    vertical-align: bottom;
+}*/

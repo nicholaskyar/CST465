@@ -9,6 +9,7 @@ using System.Web;
 public class ProfileData
 {
     private String _Name;
+    private String _Email;
     private String _UserType;
     private String _Hobby;
     private String _Band;
@@ -21,6 +22,12 @@ public class ProfileData
     {
         get { return _Name; }
         set { _Name = value; }
+    }
+
+    public String Email
+    {
+        get { return _Email; }
+        set { _Email = value; }
     }
 
     public String UserType

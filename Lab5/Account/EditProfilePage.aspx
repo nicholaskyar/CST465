@@ -14,6 +14,13 @@
         <br />
         <br />
 
+        <asp:Label ID="uxEmailLabel" AssociatedControlID="uxEmail" runat="server">Email: </asp:Label>
+        <asp:TextBox ID="uxEmail" ValidationGroup="ProfileValidator" runat="server" />
+        <asp:RequiredFieldValidator ID="uxEmailValidator" ControlToValidate="uxEmail" Display="None" ErrorMessage="Email" ValidationGroup="ProfileValidator" runat="server" />
+
+        <br />
+        <br />
+
         <asp:Label ID="uxUserTypeLabel" AssociatedControlID="uxUserType" runat="server">User Type: </asp:Label>
         <asp:DropDownList ID="uxUserType" ValidationGroup="ProfileValidator" runat="server" >
             <asp:ListItem Value="0">--Select--</asp:ListItem>

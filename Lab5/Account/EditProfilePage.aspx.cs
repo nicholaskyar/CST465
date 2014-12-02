@@ -20,6 +20,7 @@ public partial class EditProfilePage : System.Web.UI.Page
         ProfileData data = new ProfileData();
 
         data.Name = uxName.Text;
+        data.Email = uxEmail.Text;
         data.UserType = uxUserType.Text;
         data.Hobby = uxHobby.Text;
         data.Band = uxBand.Text;

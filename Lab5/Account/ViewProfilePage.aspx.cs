@@ -18,6 +18,7 @@ public partial class ViewProfilePage : System.Web.UI.Page
         if (data != null)
         {
             uxNameLiteral.Text = data.Name;
+            uxEmailLiteral.Text = data.Email;
             uxUserTypeLiteral.Text = data.UserType;
             uxHobbyLiteral.Text = data.Hobby;
             uxBandLiteral.Text = data.Band;

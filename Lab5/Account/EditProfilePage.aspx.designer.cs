@@ -39,6 +39,33 @@ public partial class EditProfilePage {
     protected global::System.Web.UI.WebControls.RequiredFieldValidator uxNameValidator;
     
     /// <summary>
+    /// uxEmailLabel control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label uxEmailLabel;
+    
+    /// <summary>
+    /// uxEmail control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox uxEmail;
+    
+    /// <summary>
+    /// uxEmailValidator control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.RequiredFieldValidator uxEmailValidator;
+    
+    /// <summary>
     /// uxUserTypeLabel control.
     /// </summary>
     /// <remarks>

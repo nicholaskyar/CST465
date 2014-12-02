@@ -13,6 +13,12 @@
     <br />
     <br />
 
+    <span class="fieldTitle">Email: </span>
+    <asp:Literal ID="uxEmailLiteral" runat="server" />
+
+    <br />
+    <br />
+
     <span class="fieldTitle">User Type: </span>
     <asp:Literal ID="uxUserTypeLiteral" runat="server" />
 

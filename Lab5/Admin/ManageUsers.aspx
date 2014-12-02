@@ -15,8 +15,21 @@
 
     <fieldset>
         <legend>Role Membership</legend>
+
+        <span>Select a user and a role from the following drop downs to add the chosen user to the chosen role.</span>
+
+        <br />
+
+        <asp:Label ID="uxUserDropDownLabel" AssociatedControlID="uxUserDropDown" runat="server">Users:</asp:Label>
         <asp:DropDownList ID="uxUserDropDown" DataSourceID="uxSelectUsersDS" DataTextField="UserName" DataValueField="UserName" runat="server" />
+
+        <br />
+
+        <asp:Label ID="uxRoleDropDownLabel" AssociatedControlID="uxRoleDropDown" runat="server">Roles:</asp:Label>
         <asp:DropDownList ID="uxRoleDropDown" DataSourceID="uxSelectRolesDS" DataTextField="RoleName" DataValueField="RoleName" runat="server" />
+
+        <br />
+
         <asp:Button ID="uxRoleMemberAddButton" OnClick="uxRoleMemberAddButton_Click" Text="Add User to Role" runat="server" />
     </fieldset>
 </asp:Content>

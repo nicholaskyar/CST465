@@ -58,6 +58,15 @@ namespace Lab5 {
         protected global::System.Web.UI.WebControls.Button uxRoleCreateButton;
         
         /// <summary>
+        /// uxUserDropDownLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label uxUserDropDownLabel;
+        
+        /// <summary>
         /// uxUserDropDown control.
         /// </summary>
         /// <remarks>
@@ -65,6 +74,15 @@ namespace Lab5 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList uxUserDropDown;
+        
+        /// <summary>
+        /// uxRoleDropDownLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label uxRoleDropDownLabel;
         
         /// <summary>
         /// uxRoleDropDown control.

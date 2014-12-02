@@ -5,8 +5,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+using Lab5.Old_App_Code;
+
 public partial class EditProfilePage : System.Web.UI.Page
 {
+    private ProfilePersistance persist = new ProfilePersistance();
+
     protected void Page_Load(object sender, EventArgs e)
     {
         
@@ -24,7 +28,9 @@ public partial class EditProfilePage : System.Web.UI.Page
         data.CourseNumber = uxCourseNumber.Text;
         data.CourseDescription = uxCourseDescription.Text;
 
-        Session.Add("ProfileData",data);
+        persist.SaveProfile(data);
+
+        //Session.Add("ProfileData",data);
 
         Response.Redirect("ViewProfilePage.aspx");
     }

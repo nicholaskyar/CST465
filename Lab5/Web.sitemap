@@ -7,8 +7,10 @@
         <siteMapNode url="~/Register.aspx" title="Register"  description="" />
         <siteMapNode url="~/Tests.aspx" title=""  description="" />
         <siteMapNode url="~/Account/Account.aspx" title="Account"  description="">
+          <siteMapNode url="~/Account/ViewProfilePage.aspx" title="View Profile" description="" />
           <siteMapNode url="~/Account/EditProfilePage.aspx" title="Edit Profile" description="" />
           <siteMapNode url="~/Account/Logout.aspx" title="Logout" description="" />
         </siteMapNode>
+        <siteMapNode url="~/Admin/ManageUsers.aspx" title="Manage Users" description="" />
     </siteMapNode>
 </siteMap>

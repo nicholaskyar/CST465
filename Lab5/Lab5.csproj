@@ -58,13 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage.master" />
+    <Content Include="Admin\ManagerUsers.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Forum.aspx" />
     <Content Include="Tests.aspx" />
     <Content Include="Account\Account.aspx" />
     <Content Include="Account\Logout.aspx" />
-    <Content Include="Admin\ManagerUsers.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,6 +125,13 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\ManagerUsers.aspx.cs">
+      <DependentUpon>ManagerUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManagerUsers.aspx.designer.cs">
+      <DependentUpon>ManagerUsers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -166,13 +173,6 @@
     </Compile>
     <Compile Include="Account\Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\ManagerUsers.aspx.cs">
-      <DependentUpon>ManagerUsers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\ManagerUsers.aspx.designer.cs">
-      <DependentUpon>ManagerUsers.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
